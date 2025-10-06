@@ -1,16 +1,63 @@
-# sports_tech_app
+# Sports Tech Skills App
+A simple and attractive Flutter application designed to display a list of sports skills, elegantly grouped by level (Basic, Intermediate, and Advanced) in a horizontally scrolling UI.
 
-A new Flutter project.
+## Features
+
+- **Grouped by Skill Level:** Skills are parsed from a local JSON source and automatically organized into three distinct categories.
+
+- **Ordered Display:** Categories are presented in a logical progression: Basic → Intermediate → Advanced.
+
+- **Horizontal Carousels:** Each skill level is displayed in its own smooth, horizontally scrolling carousel.
+
+- **Attractive UI:** Features a modern, bright UI with vibrant colors, custom gradients, and a "frosted glass" effect on skill cards for clear text visibility.
+
+- **Responsive Design:** The layout is built to be responsive and works well on various screen sizes.
+
+- **Local Asset Management:** Loads all skill images from the local assets folder for fast, offline-first performance.
+
+Screenshot
+D:\Projects\sports_tech_app\assets\images\sc1.jpg
+D:\Projects\sports_tech_app\assets\images\sc2.jpg
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a local copy up and running, follow these simple steps.
 
-A few resources to get you started if this is your first Flutter project:
+**Prerequisites**
+You must have Flutter installed on your machine. For installation instructions, see the official Flutter documentation.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Installation**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. *Clone the repo*
+```sh
+git clone [https://github.com/your_username/sports_tech_app.git](https://github.com/your_username/sports_tech_app.git)
+```
+
+2. *Navigate to the project directory*
+```sh
+cd sports_tech_app
+```
+3. *Install dependencies*
+```sh 
+flutter pub get
+```
+
+4. *Run the app*
+```sh 
+flutter run
+```
+
+## Folder Structure
+The project follows a standard Flutter structure. All the application logic is contained within lib/main.dart.
+```sh 
+sports_tech_app/
+├── assets/
+│   └── images/         # Contains all the skill images
+├── lib/
+│   └── main.dart       # Main application file
+└── pubspec.yaml        # Project dependencies and asset declarations
+```
+
+## Built With
+- [Flutter](https://flutter.dev/) - The UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- [Dart](https://dart.dev/) - The programming language used by Flutter.
