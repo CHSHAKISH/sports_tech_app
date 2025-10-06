@@ -15,7 +15,7 @@ A simple and attractive Flutter application designed to display a list of sports
 
 - **Local Asset Management:** Loads all skill images from the local assets folder for fast, offline-first performance.
 
-Screenshot
+## Screenshot
 <p align="center">
 <img src="assets/images/app sc1.jpg" alt="Screen 1" width="250"/>
 <img src="assets/images/app sc2.jpg" alt="Screen 2" width="250"/>
